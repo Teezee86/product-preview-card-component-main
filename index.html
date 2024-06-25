@@ -14,6 +14,7 @@
 </head>
 
 <body>
+
 	<div id="card__container">
 		
 		<!-- IMAGE CARD -->
@@ -27,29 +28,38 @@
 		</div>
 
 		<!-- CONTENT CARD -->
-				<div id="content__card">
+		<main>
+		
+			<div id="content__card" class="cd__bg">
+			
 			<aside>
-				<p>Perfume</p>
+				<p class="card__cat--space monsterrat">perfume</p>
 			</aside>
 
-			<header>
-				<h1>Gabrielle Essence Eau De Parfum</h1>
+			<header id="card__title">
+				<h1 class="prdct__name fraunces">Gabrielle Essence Eau De Parfum</h1>
 			</header>
 
-			<main>
-				<section>
-					<p>
+		
+
+				<section class="prdct__description">
+					<p class="discription__text monsterrat grey">
 						A floral, solar and voluptuous interpretation
 						composed by Olivier Polge, Perfumer-Creator for the
 						House of CHANEL.
 					</p>
 				</section>
 
-				<section>
-					<p>$149.99 <span>$169.99</span></p>
-					<button>
-						<img src="images/favicon-32x32.png" alt="shopping cart icon" /><span>Add to Cart</span>
+				<section class="prdct__price flex">
+					<p class="price__active--big cyan monsterrat">$149.99</p><p class="old-price--small grey monsterrat "> $169.99</pclass>
+				</section>	
+
+					<section class="card__checkout-btn--container">
+					<button class="card__btn flex btn__bg--cyan" id="add-to-cart__btn">
+						<img id="cart-img" alt="shopping cart icon" src="images/icon-cart.svg">
+						<p class="monsterrat">Add  to cart</p>
 					</button>
+
 				</section>
 			</main>
 		</div>
