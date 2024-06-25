@@ -2,35 +2,63 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<link rel="stylesheet" href="styles.css">
-	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="stylesheet" href="styles.css" />
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 	<title>Frontend Mentor | Product preview card component</title>
 	<style>
-		@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,700,100,1;1,9..144,700,100,1&family=Montserrat:wght@100..900&display=swap');
+		@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,700,100,1;1,9..144,700,100,1&family=Montserrat:wght@100..900&display=swap");
 	</style>
 </head>
 
 <body>
+	<div id="card__container">
+		
+		<!-- IMAGE CARD -->
+		<div id="img__card">
+			<figure class="img__card--mobile">
+				<img src="images/image-product-mobile.jpg" class="mobile-img">
+			</figure>
+			<figure class="hidden visible card-desktop__img">
+				<img src="images/image-product-desktop.jpg" class="img__card--desktop hidden visible" >
+			</figure>
+		</div>
 
-	Perfume
+		<!-- CONTENT CARD -->
+				<div id="content__card">
+			<aside>
+				<p>Perfume</p>
+			</aside>
 
-	Gabrielle Essence Eau De Parfum
+			<header>
+				<h1>Gabrielle Essence Eau De Parfum</h1>
+			</header>
 
-	A floral, solar and voluptuous interpretation composed by Olivier Polge,
-	Perfumer-Creator for the House of CHANEL.
+			<main>
+				<section>
+					<p>
+						A floral, solar and voluptuous interpretation
+						composed by Olivier Polge, Perfumer-Creator for the
+						House of CHANEL.
+					</p>
+				</section>
 
-	$149.99
-	$169.99
-
-	Add to Cart
-
-	<div class="attribution">
-		Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-		Coded by <a href="#">Your Name Here</a>.
+				<section>
+					<p>$149.99 <span>$169.99</span></p>
+					<button>
+						<img src="images/favicon-32x32.png" alt="shopping cart icon" /><span>Add to Cart</span>
+					</button>
+				</section>
+			</main>
+		</div>
 	</div>
+	<footer class="attribution">
+		Challenge by
+		<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
+			href="#">Your Name Here</a>.
+	</footer>
 </body>
 
 </html>
