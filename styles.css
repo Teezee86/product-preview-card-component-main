@@ -1,0 +1,57 @@
+:root {
+	--dark-cyan: hsl(158, 36%, 37%);
+	--cream-bg: hsl(30, 38%, 92%);
+
+	--verydark-blue: hsl(212, 21%, 14%);
+	--darkgrayish-blue: hsl(228, 12%, 48%);
+	--White-cdbg: hsl(0, 0%, 100%);
+}
+/* for reference */
+font-family: "Montserrat", sans-serif;
+font-optical-sizing: auto;
+font-weight: 500 700;
+font-style: normal;
+
+font-family: "Fraunces", serif;
+font-optical-sizing: auto;
+font-weight: 700;
+font-style: normal;
+font-variation-settings: "SOFT" 100, "WONK" 1;
+/* Font- Refernce */
+
+html {
+	font-size: 16px;
+}
+body {
+	font-size: 14px;
+	line-height: 1;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+footer,
+header,
+section,
+div,
+main {
+	display: block;
+}
+/* BASE STYLES -  RESET - END */
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
