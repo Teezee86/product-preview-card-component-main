@@ -1,0 +1,28 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "window.density.editorTabHeight": "compact",
+    "cSpell.caseSensitive": false,
+    "html-to-css-autocompletion.getSelectorsFromFileTypes": [
+
+      "html",
+      "php"
+    ],
+    "editor.inlineSuggest.showToolbar": "always",
+    "editor.suggest.localityBonus": false,
+    "editor.suggest.preview": true,
+    "editor.suggest.showStatusBar": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorStyle": "block",
+    "editor.find.autoFindInSelection": "multiline",
+    "workbench.editor.pinnedTabSizing": "shrink",
+    "editor.tabCompletion": "on",
+    "editor.tabFocusMode": true,
+    "editor.stickyTabStops": true
+  }
+}

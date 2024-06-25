@@ -1,0 +1,10 @@
+{
+  "editor.fontFamily": "",
+  "editor.cursorStyle": "block",
+  "editor.tabCompletion": "on",
+  "editor.tabFocusMode": true,
+  "editor.stickyTabStops": true,
+  "emmet.triggerExpansionOnTab": true,
+  "prettier.tabWidth": 4,
+  "prettier.useTabs": true
+}
