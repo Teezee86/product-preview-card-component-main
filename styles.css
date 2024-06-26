@@ -114,6 +114,12 @@ section{
 .attribution a {
 	color: hsl(228, 45%, 44%);
 }
+a {
+	text-decoration: none;
+}
+button:hover  {
+	background:  var(--verydark-blue);
+}
 @media screen and (min-width: 500px){
 	* {
 		box-sizing: border-box;
@@ -121,9 +127,11 @@ section{
 	#card__title {
 		font-size: 1rem;
 	}
-	.price__active--big
-	{
-		font-size: 1.7rem;
+	.price__active--big{
+		font-size: 2rem;
+	}
+	.price__old--small {
+		font-size: .8rem;
 	}
 	#content__card{
 		border-radius:  0 10px 10px 0;;
